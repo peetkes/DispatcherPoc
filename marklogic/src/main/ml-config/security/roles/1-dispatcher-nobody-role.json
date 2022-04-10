@@ -1,0 +1,5 @@
+{
+  "role-name" : "dispatcher-nobody",
+  "description" : "Unauthenticated user",
+  "role" : [ ]
+}

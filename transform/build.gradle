@@ -1,0 +1,37 @@
+apply plugin: 'org.springframework.boot'
+apply plugin: 'java'
+
+group = 'nl.koop.transform'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+dependencies {
+    // tag::actuator[]
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    // end::actuator[]
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.18'
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.11'
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    // https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE
+    implementation group: 'net.sf.saxon', name: 'Saxon-HE', version: '9.9.1-8'
+
+    // tag::tests[]
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    // end::tests[]
+}
+
+test {
+    useJUnitPlatform()
+}
+
+bootJar {
+    manifest {
+        attributes 'Start-Class': 'nl.koop.transform.TransformApp'
+    }
+}

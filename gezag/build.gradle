@@ -1,0 +1,29 @@
+apply plugin: 'org.springframework.boot'
+apply plugin: 'java'
+
+group = 'nl.koop.bg'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+dependencies {
+  // tag::actuator[]
+  implementation 'org.springframework.boot:spring-boot-starter-actuator'
+  // end::actuator[]
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation 'org.springframework.boot:spring-boot-starter-activemq'
+  implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
+  compileOnly 'org.projectlombok:lombok:1.18.22'
+  annotationProcessor 'org.projectlombok:lombok:1.18.22'
+  // tag::tests[]
+  testImplementation('org.springframework.boot:spring-boot-starter-test')
+  // end::tests[]
+}
+test {
+  useJUnitPlatform()
+}
+
+bootJar {
+  manifest {
+    attributes 'Start-Class': 'nl.koop.bg.GezagApp'
+  }
+}

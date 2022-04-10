@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringBesluit schemaversie="1.2.0" xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/">
+  <BesluitVersie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <FRBRWork>/akn/nl/bill/gm0307/2019/bes001</FRBRWork>
+      <FRBRExpression>/akn/nl/bill/gm0307/2019/bes001/nld@2019-06-27</FRBRExpression>
+      <soortWork>/join/id/stop/work_003</soortWork>
+    </ExpressionIdentificatie>
+    <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0307</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0307</maker>
+      <officieleTitel>Besluit tbv Regeling Voorbeeldregels met uitbreiding tbv Toepasbare Regels</officieleTitel>
+      <onderwerpen>
+	<onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
+	<!-- werk -->
+      </onderwerpen>
+      <rechtsgebieden>
+	<rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+      </rechtsgebieden>
+      <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
+      <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+    </BesluitMetadata>
+    <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <bekendOp>2019-06-27</bekendOp>
+      <procedurestappen>
+	<Procedurestap>
+	  <!-- Ondertekening -->
+	  <soortStap>/join/id/stop/procedure/stap_003</soortStap>
+	  <voltooidOp>2019-06-25</voltooidOp>
+	</Procedurestap>
+      </procedurestappen>
+    </Procedureverloop>
+    <data:ConsolidatieInformatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+      <BeoogdeRegelgeving xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+	<BeoogdeRegeling>
+	  <doelen>
+	    <doel>/join/id/proces/gm0307/2019/Instelling</doel>
+	  </doelen>
+	  <instrumentVersie>/akn/nl/act/gm0307/2019/reg0001/nld@1</instrumentVersie>
+	  <eId>art_II</eId>
+	</BeoogdeRegeling>
+      </BeoogdeRegelgeving>
+      <Tijdstempels xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+	<Tijdstempel>
+	  <doel>/join/id/proces/gm0307/2019/Instelling</doel>
+	  <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+	  <datum>2019-08-01</datum>
+	  <eId>art_II</eId>
+	</Tijdstempel>
+      </Tijdstempels>
+    </data:ConsolidatieInformatie>
+    <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+      <RegelingOpschrift eId="longTitle_o_1" wId="longTitle_o_1">
+	<Al>Besluit tbv Regeling Voorbeeldregels met uitbreiding tbv Toepasbare Regels</Al>
+      </RegelingOpschrift>
+      <Aanhef eId="formula_1" wId="formula_1">
+	<Al>De raad van de gemeente Gemeenstestad </Al>
+	<Al>gelezen het voorstel van burgemeester en wethouders van 26 juni 2019, nr.
+          2019-4542;</Al>
+	<Al>Gelet op <ExtRef ref="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;titeldeel=III&amp;hoofdstuk=IX&amp;artikel=149" soort="URL">Gemeentewet, art. 149</ExtRef>.</Al>
+	<Al>besluit:</Al>
+      </Aanhef>
+      <Lichaam eId="body" wId="body">
+	<WijzigArtikel eId="art_I" wId="gm0307_1__art_I">
+	  <Kop>
+	    <Label>Artikel</Label>
+	    <Nummer>I</Nummer>
+	  </Kop>
+	  <Wat>De "Voorbeeldregels met uitbreiding tbv Toepasbare Regels" opgenomen in <IntRef ref="cmp_A">Bijlage A</IntRef> worden vastgesteld.</Wat>
+	</WijzigArtikel>
+	<Artikel eId="art_II" wId="gm0307_1__art_II">
+	  <Kop>
+	    <Label>Artikel</Label>
+	    <Nummer>II</Nummer>
+	  </Kop>
+	  <Inhoud>
+	    <Al>Dit besluit treedt in werking per 1 augustus 2019.</Al>
+	  </Inhoud>
+	</Artikel>
+      </Lichaam>
+      <Sluiting eId="formula_2_o_1" wId="formula_2_o_1">
+	<Al>Gegeven te Kaap Doorn, Gemeentestad, 26 juni 2019</Al>
+	<Ondertekening>
+	  <Al>Gedeputeerde Raad van Apeldoorn tot Den Haag</Al>
+	  <Al>Yue Wan Fan</Al>
+	  <Al>gemeentesecretaris</Al>
+	  <Al>Nadine Bauer</Al>
+	  <Al>Burgemeester</Al>
+	</Ondertekening>
+      </Sluiting>
+      <WijzigBijlage eId="cmp_A" wId="gm0307_1__cmp_A">
+	<Kop>
+	  <Label>Bijlage</Label>
+	  <Nummer>A</Nummer>
+	  <Opschrift>Bijlage bij artikel I</Opschrift>
+	</Kop>
+	<RegelingCompact wordt="/akn/nl/act/gm0307/2019/reg0001/nld@1" componentnaam="main">
+	  <RegelingOpschrift wId="gm0307_1__longTitle" eId="longTitle">
+	    <Al>Omgevingsplan Amersfoort</Al>
+	  </RegelingOpschrift>
+	  <Lichaam eId="body_1" wId="body_1">
+	    <!-- Hieronder staat een hoofdstuk -->
+	    <Hoofdstuk eId="chp_h_1" wId="gm0307_1__chp_h_1">
+	      <!-- De inhoud van het hoofdstuk -->
+	      <Kop>
+		<Label>Hoofdstuk</Label>
+		<Nummer>1</Nummer>
+		<Opschrift>Inleiding</Opschrift>
+	      </Kop>
+	      <!-- Hieronder staat een artikel -->
+	      <Artikel eId="h_1__art_1-1" wId="gm0307_1__h_1__art_1-1">
+		<!-- De inhoud van het artikel -->
+		<Kop>
+		  <Label>Artikel</Label>
+		  <Nummer>1.1</Nummer>
+		  <Opschrift>Tabellen en plaatjes</Opschrift>
+		</Kop>
+		<Lid wId="gm0307_1__h_1__art_1-1__para_1" eId="h_1__art_1-1__para_1">
+		  <LidNummer>1.</LidNummer>
+		  <Inhoud>
+		    <Al> in de volgende leden wordt een plaatje en een tabel
+                                    toegevoegd. Deze zullen in een latere besluit mogelijk gewijzigd
+                                    worden. </Al>
+		  </Inhoud>
+		</Lid>
+		<Lid wId="gm0307_1__h_1__art_1-1__para_2" eId="h_1__art_1-1__para_2">
+		  <LidNummer>2.</LidNummer>
+		  <Inhoud>
+		    <Al>Test Inhoud</Al>
+		  </Inhoud>
+		</Lid>
+		<Lid wId="gm0307_1__h_1__art_1-1__para_3" eId="h_1__art_1-1__para_3">
+		  <LidNummer>3.</LidNummer>
+		  <Inhoud>
+		    <Tussenkop>Inijkingstabel voor de energieklassen</Tussenkop>
+		    <table colsep="1" frame="all" rowsep="1" tabstyle="zebra1" pgwide="0" wId="gm0307_1__h_1__art_1-1__para_3__table_1" eId="h_1__art_1-1__para_3__table_1">
+		      <title>Tabel voor energieklassen voor overige
+                                       categorieën</title>
+		      <tgroup align="left" cols="2">
+			<colspec colname="col1" colnum="1" colwidth="208*"/>
+			<colspec colname="col2" colnum="2" colwidth="505*"/>
+			<thead valign="bottom">
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>Energieklasse</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>Grenswaarden E<sub>P;tot</sub> /
+                                                  E<sub>P;adm;tot;nb</sub> (E/E)</Al>
+			      <Al>Energieprestatie overige categorieën</Al>
+			    </entry>
+			  </row>
+			</thead>
+			<tbody valign="top">
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>A++++</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>Kleiner of gelijk aan 0,30</Al>
+			    </entry>
+			  </row>
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>A+++</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>0,31–0,65</Al>
+			    </entry>
+			  </row>
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>A++</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>0,66–1,00</Al>
+			    </entry>
+			  </row>
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>A+</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>1,01–1,15</Al>
+			    </entry>
+			  </row>
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>A</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>1,16–1,35</Al>
+			    </entry>
+			  </row>
+			  <row rowsep="1">
+			    <entry align="left" colname="col1" colsep="1" valign="top" rotate="0">
+			      <Al>B</Al>
+			    </entry>
+			    <entry align="left" colname="col2" colsep="1" valign="top" rotate="0">
+			      <Al>Groter dan 1,35</Al>
+			    </entry>
+			  </row>
+			</tbody>
+		      </tgroup>
+		    </table>
+		  </Inhoud>
+		</Lid>
+	      </Artikel>
+	    </Hoofdstuk>
+	  </Lichaam>
+	</RegelingCompact>
+      </WijzigBijlage>
+    </BesluitCompact>
+  </BesluitVersie>
+  <RegelingVersieInformatie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <FRBRWork>/akn/nl/act/gm0307/2019/reg0001</FRBRWork>
+      <FRBRExpression>/akn/nl/act/gm0307/2019/reg0001/nld@1</FRBRExpression>
+      <soortWork>/join/id/stop/work_019</soortWork>
+    </ExpressionIdentificatie>
+    <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <versienummer>1</versienummer>
+    </RegelingVersieMetadata>
+    <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0307</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0307</maker>
+      <officieleTitel>Omgevingsplan Amersfoort</officieleTitel>
+      <onderwerpen>
+	<onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
+      </onderwerpen>
+      <rechtsgebieden>
+	<rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+      </rechtsgebieden>
+      <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
+      <overheidsdomeinen>
+	<overheidsdomein>/tooi/def/concept/c_3708ac5e</overheidsdomein>
+      </overheidsdomeinen>
+      <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+    </RegelingMetadata>
+  </RegelingVersieInformatie>
+</AanleveringBesluit>

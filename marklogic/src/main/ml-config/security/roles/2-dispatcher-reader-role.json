@@ -1,0 +1,5 @@
+{
+  "role-name" : "dispatcher-reader",
+  "description" : "Can view documents, but not edit",
+  "role" : [ "rest-reader", "dispatcher-nobody" ]
+}

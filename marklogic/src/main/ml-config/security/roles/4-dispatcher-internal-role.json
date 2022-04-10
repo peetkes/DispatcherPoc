@@ -1,0 +1,5 @@
+{
+  "role-name" : "dispatcher-internal",
+  "description" : "Internal role used for amping",
+  "role" : [ "dispatcher-writer" ]
+}

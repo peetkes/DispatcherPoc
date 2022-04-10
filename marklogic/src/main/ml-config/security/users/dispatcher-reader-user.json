@@ -1,0 +1,5 @@
+{
+  "user-name" : "dispatcher-reader",
+  "password" : "dispatcher-reader",
+  "role" : [ "dispatcher-reader" ]
+}

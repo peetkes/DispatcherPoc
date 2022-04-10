@@ -1,0 +1,10 @@
+POST http://localhost:9091/produce/message
+Content-Type: application/json
+
+{
+  "studentId": "20",
+  "name": "rakesh",
+  "rollNumber": "0126CS01"
+}
+
+###

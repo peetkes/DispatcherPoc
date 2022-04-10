@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AanleveringBesluit schemaversie="1.2.0" xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/">
+  <BesluitVersie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <FRBRWork>/akn/nl/bill/gm0307/2019/bes0004</FRBRWork>
+      <FRBRExpression>/akn/nl/bill/gm0307/2019/bes0004/nld@3019-12-01</FRBRExpression>
+      <soortWork>/join/id/stop/work_003</soortWork>
+    </ExpressionIdentificatie>
+    <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <eindverantwoordelijke>/tooi/id/gemeente/gm0307</eindverantwoordelijke>
+      <maker>/tooi/id/gemeente/gm0307</maker>
+      <officieleTitel>Scenario 2 - VoegToe</officieleTitel>
+      <soortProcedure>/join/id/stop/proceduretype_definitief</soortProcedure>
+      <onderwerpen>
+	<onderwerp>/tooi/def/concept/c_cfc7d5ab</onderwerp>
+      </onderwerpen>
+      <rechtsgebieden>
+	<rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+      </rechtsgebieden>
+      <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+    </BesluitMetadata>
+    <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <bekendOp>2019-11-01</bekendOp>
+      <procedurestappen>
+	<Procedurestap>
+	  <!-- soortStap 'stap_003' = ondertekening -->
+	  <soortStap>/join/id/stop/procedure/stap_003</soortStap>
+	  <voltooidOp>2019-12-04</voltooidOp>
+	</Procedurestap>
+      </procedurestappen>
+    </Procedureverloop>
+    <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <BeoogdeRegelgeving>
+	<BeoogdeRegeling>
+	  <doelen>
+	    <doel>/join/id/proces/gm0307/2019/Instelling-v4</doel>
+	  </doelen>
+	  <instrumentVersie>/akn/nl/act/gm0307/2019/reg0001/nld@4</instrumentVersie>
+	  <eId>art_I</eId>
+	</BeoogdeRegeling>
+      </BeoogdeRegelgeving>
+      <Tijdstempels>
+	<Tijdstempel>
+	  <doel>/join/id/proces/gm0307/2019/Instelling-v4</doel>
+	  <soortTijdstempel>juridischWerkendVanaf</soortTijdstempel>
+	  <datum>2023-02-01</datum>
+	  <eId>art_II</eId>
+	</Tijdstempel>
+      </Tijdstempels>
+    </ConsolidatieInformatie>
+    <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+      <RegelingOpschrift eId="longTitle_opschrift" wId="longTitle_opschrift">
+	<Al>Scenario 2 - VoegToe</Al>
+      </RegelingOpschrift>
+      <Aanhef eId="formula_1_aanhef" wId="formula_1_aanhef">
+	<Al>Gemeenteraad van Amersfoort</Al>
+	<Al>Gelet op allerlei zeer belangrijke zaken, enz. enz. enz.</Al>
+	<Al>Besluiten:</Al>
+      </Aanhef>
+      <Lichaam eId="body" wId="body">
+	<WijzigArtikel eId="art_I" wId="gm0307__art_I">
+	  <Kop>
+	    <Label>Artikel</Label>
+	    <Nummer>I</Nummer>
+	  </Kop>
+	  <Wat>Omgevingsplan Amersfoort wordt gewijzigd zoals in <IntRef ref="cmp_A">Bijlage I</IntRef> wordt beschreven</Wat>
+	</WijzigArtikel>
+	<Artikel eId="art_II" wId="gm0307__art_II">
+	  <Kop>
+	    <Label>Artikel</Label>
+	    <Nummer>II</Nummer>
+	  </Kop>
+	  <Inhoud>
+	    <Al>Dit besluit treedt in werking per 1 februari 2023.</Al>
+	  </Inhoud>
+	</Artikel>
+      </Lichaam>
+      <Sluiting eId="formula_2_o_1" wId="formula_2_o_1">
+	<Al>Gegeven te Amersfoort, 4 november 2019</Al>
+      </Sluiting>
+      <WijzigBijlage eId="cmp_A" wId="gm0307__cmp_A">
+	<Kop>
+	  <Label>Bijlage</Label>
+	  <Nummer>I</Nummer>
+	  <Opschrift>Bijlage bij artikel I</Opschrift>
+	</Kop>
+	<RegelingMutatie componentnaam="main" was="/akn/nl/act/gm0307/2019/reg0001/nld@1" wordt="/akn/nl/act/gm0307/2019/reg0001/nld@4">
+	  <VoegToe context="gm0307_1__h_1__art_1-1" positie="volgtOp">
+	    <Artikel eId="h_1__art_1-2" wId="gm0307_2__h_1__art_1-2">
+	      <Kop>
+		<Label>Artikel</Label>
+		<Nummer>1.2</Nummer>
+		<Opschrift>Uitwerkingen</Opschrift>
+	      </Kop>
+	      <Inhoud>
+		<Al>Dit is de tekst van artikel 1.2.</Al>
+	      </Inhoud>
+	    </Artikel>
+	    <Artikel eId="h_1__art_1-3" wId="gm0307_2__h_1__art_1-3">
+	      <Kop>
+		<Label>Artikel</Label>
+		<Nummer>1.3</Nummer>
+		<Opschrift>Uitwerkingen</Opschrift>
+	      </Kop>
+	      <Inhoud>
+		<Al>Dit is de tekst van artikel 1.3.</Al>
+	      </Inhoud>
+	    </Artikel>
+	    <Artikel eId="h_1__art_1-4" wId="gm0307_2__h_1__art_1-4">
+	      <Kop>
+		<Label>Artikel</Label>
+		<Nummer>1.4</Nummer>
+		<Opschrift>Uitwerkingen</Opschrift>
+	      </Kop>
+	      <Inhoud>
+		<Al>Dit is de tekst van artikel 1.4.</Al>
+	      </Inhoud>
+	    </Artikel>
+	  </VoegToe>
+	</RegelingMutatie>
+      </WijzigBijlage>
+    </BesluitCompact>
+  </BesluitVersie>
+  <RegelingVersieInformatie>
+    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <!-- Work en Expression gelijk aan @wordt uit Regelingmutatie -->
+      <FRBRWork>/akn/nl/act/gm0307/2019/reg0001</FRBRWork>
+      <FRBRExpression>/akn/nl/act/gm0307/2019/reg0001/nld@4</FRBRExpression>
+      <!-- soortWork 'work_019' = Regeling -->
+      <soortWork>/join/id/stop/work_019</soortWork>
+    </ExpressionIdentificatie>
+    <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+      <versienummer>4</versienummer>
+    </RegelingVersieMetadata>
+  </RegelingVersieInformatie>
+</AanleveringBesluit>

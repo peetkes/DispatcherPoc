@@ -1,0 +1,40 @@
+POST http://localhost:8010/v1/resources/dispatch
+Authorization: Basic dispatcher-writer dispatcher-writer
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="rs:opdracht"; filename="opdracht.xml"
+Content-Type: text/xml
+
+< ./data/opdracht1/opdracht.xml
+--WebAppBoundary
+Content-Disposition: form-data; name="rs:publicatie"; filename="publicatie.xml"
+Content-Type: text/xml
+
+< ./data/opdracht1/initieel-besluit.xml
+--WebAppBoundary
+
+###
+PUT http://localhost:8010/v1/resources/dispatch
+Authorization: Basic dispatcher-writer dispatcher-writer
+Content-Type: multipart/mixed; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="rs:opdracht"; filename="opdracht.xml"
+Content-Type: text/xml
+
+< ./data/opdracht1/opdracht.xml
+--WebAppBoundary
+Content-Disposition: form-data; name="rs:publicatie"; filename="publicatie.xml"
+Content-Type: text/xml
+
+< ./data/opdracht1/initieel-besluit.xml
+--WebAppBoundary
+
+###
+
+POST http://localhost:8010/v1/resources/dispatch
+Authorization: Basic dispatcher-writer dispatcher-writer
+Content-Type: text/xml
+
+< ./data/opdracht1/opdracht.xml
