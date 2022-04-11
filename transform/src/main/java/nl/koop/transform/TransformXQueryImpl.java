@@ -1,11 +1,13 @@
 package nl.koop.transform;
 
+import lombok.extern.slf4j.Slf4j;
 import net.sf.saxon.s9api.*;
 
-public class TransformImpl implements Transform {
+@Slf4j
+public class TransformXQueryImpl implements Transform {
   @Override
   public String name() {
-    return "PlainTransform";
+    return "XQueryTransform";
   }
 
   @Override
